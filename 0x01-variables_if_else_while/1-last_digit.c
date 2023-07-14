@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - execution starts here
+ * main - execution starts here when a random number is entered
  *
  * Return: 0 for success 
  */
