@@ -3,7 +3,7 @@
 /**
  * main - function that prints the sign of a number.
  *
- * Return: Is either 1 else -1 else 0.
+ * Return: Is either 1, else -1, else 0.
  *
  */
 
