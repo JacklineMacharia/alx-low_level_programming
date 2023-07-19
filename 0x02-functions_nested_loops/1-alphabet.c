@@ -2,13 +2,14 @@
 
 /**
  * print_alphabet - prints the alphabet in lowercase
- * @c: character to be checked
- * Return: Void.
+ * @c: character
+ * Return: void.
  */
 
 void print_alphabet(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
