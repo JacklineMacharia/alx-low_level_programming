@@ -2,9 +2,9 @@
 
 
 /**
- * main - Prints the function that prints the alphabet, in lowercase, followed by a new line.
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  * 
- * Return: Always is void.
+ * Return: Void
  */
 
 
@@ -12,7 +12,7 @@
 void print_alphabet(void)
 {
 	char c;
-	for (c = 'a'; c<= 'z'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
 	}
