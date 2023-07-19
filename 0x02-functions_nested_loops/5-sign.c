@@ -2,12 +2,10 @@
 
 /**
  * print_sign - function that print the sign of a number.
- *
- * Return: Is either 1, else -1, else 0.
+ * @n: integer 
+ * Return: Is either 1; else -1; else 0.
  *
  */
-
-
 int print_sign(int n)
 
 {
