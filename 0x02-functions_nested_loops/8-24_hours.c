@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
- * jack_bauer - prints every minute of the day of Jack Bauer
- * @a: integer to be checked
- * @b: integer to be checked
- * @c: integer to be checked
- * @d: integer to be checed
+ * jack_bauer - prints every minute
+ * @a: integer
  * Return: void
  */
+
 void jack_bauer(void)
 {
 	int a, b, c, d;
