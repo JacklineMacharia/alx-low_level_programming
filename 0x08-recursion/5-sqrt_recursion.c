@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
+int _sqrt(int n, int i);
+
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: number to calculate the square root
- * @i: iterate number
- * _sqrt - calculates natural square root
  * Return: natural square root
  */
 
@@ -13,6 +13,13 @@ int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
 }
+
+/**
+ * _sqrt - calculates natural square root
+ * @n: number to calculate the square root
+ * @i: iterative number
+ * Return: the natural square root
+ */
 
 int _sqrt(int n, int i)
 {
